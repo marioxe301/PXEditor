@@ -1,0 +1,16 @@
+.buttons-items{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease-in;
+    background-color: transparent;
+}
+
+.buttons-items:hover{
+    background-color: #ffffff;
+}
+
+.buttons-items:active{
+    background-color: #ffffff;
+}

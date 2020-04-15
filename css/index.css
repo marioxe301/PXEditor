@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title-image{
+    resize: both;
+    width: 100vh;
+}
+
+.title-container{
+    text-align: center;
+    margin: 10px;
+    /*background-color: red;*/
+    padding-top: 4px;
+}
+
+body {
+    background-color: #cacaca;
+}
+
+.options-container{
+    /*background-color: blue;*/
+    width: 150px;
+    height: 460px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+.canvas-container{
+    /*background-color: yellow;*/
+    width: 448px;
+    height: 448px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-container{
+    display: flex;
+}
+
+.frames-container{
+    /*background-color: tomato;*/
+    width: 150px;
+    height: 460px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

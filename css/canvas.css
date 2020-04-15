@@ -1,0 +1,8 @@
+canvas{
+    width: 448px;
+    height: 448px;
+    border: 5px solid #ffffff;
+}
+/*Canvas size 16x16
+ Each 28 pixels in canvas is 1 pixel to draw
+*/
