@@ -1,16 +1,35 @@
 .buttons-items{
     width: 60px;
     height: 60px;
+    margin: 2px;
     cursor: pointer;
     border: none;
     transition: all 0.2s ease-in;
     background-color: transparent;
+    outline: none;
+}
+.active-button{
+    background-color: white;
 }
 
 .buttons-items:hover{
     background-color: #ffffff;
 }
 
-.buttons-items:active{
-    background-color: #ffffff;
+.colors{
+    position: absolute;
+    width: 160px;
+    height: 70px;
+    bottom: 16px;
+    left: 8px;
+    display: flex;
+}
+
+.color-picker{
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background-color: white;
 }

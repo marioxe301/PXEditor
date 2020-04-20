@@ -12,7 +12,8 @@ const createWindow = () =>{
         height:600,
         webPreferences:{
             nodeIntegration: true
-        }
+        },
+        icon: __dirname + '/img/icons/app-icon.png'
     })
 
     mainWindow.loadFile('./index.html')

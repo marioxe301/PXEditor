@@ -14,13 +14,17 @@
     </div>
     <div class="content-container">
         <div class="options-container">
-            <button class="buttons-items"> <img src="./img/icons/pen.png" alt="pen"></button>
-            <button class="buttons-items"> <img src="./img/icons/eraser.png" alt="eraser"></button>
-            <button class="buttons-items"> <img src="./img/icons/mouse.png" alt="mouse"></button>
-            <button class="buttons-items"> <img src="./img/icons/rule.png" alt="rule"></button>
-            <button class="buttons-items"> <img src="./img/icons/circle.png" alt="circle"></button>
-            <button class="buttons-items"> <img src="./img/icons/rectangle.png" alt="rectangle"></button>
-            <button class="buttons-items"> <img src="./img/icons/picker.png" alt="picker"></button>
+            <button class="buttons-items active-button" name="pen"> <img src="./img/icons/pen.png" alt="pen"></button>
+            <button class="buttons-items" name="eraser"> <img src="./img/icons/eraser.png" alt="eraser"></button>
+            <button class="buttons-items" name="mouse"> <img src="./img/icons/mouse.png" alt="mouse"></button>
+            <button class="buttons-items" name="rule"> <img src="./img/icons/rule.png" alt="rule"></button>
+            <button class="buttons-items" name="circle"> <img src="./img/icons/circle.png" alt="circle"></button>
+            <button class="buttons-items" name="rectangle"> <img src="./img/icons/rectangle.png" alt="rectangle"></button>
+            <button class="buttons-items" name="picker"> <img src="./img/icons/picker.png" alt="picker"></button>
+        </div>
+        <div class="colors">
+            <div id="color-picker-primary" class="color-picker"></div>
+            <div id="color-picker-secondary" class="color-picker"></div>
         </div>
         <div class="canvas-container">
             <canvas height="448" width="448" id="canvas"></canvas>
@@ -30,7 +34,7 @@
         </div>
     </div>
 
+    <script src="./scripts/options.js"></script>
     <script src="./scripts/canvas.js"></script>
-    <script src="./scripts/ext/jscolor.js"></script>
 </body>
 </html>

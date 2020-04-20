@@ -11,5 +11,8 @@
   "devDependencies": {
     "electron": "^8.2.2",
     "electron-reload": "^1.5.0"
+  },
+  "dependencies": {
+    "vanilla-picker": "^2.10.1"
   }
 }
