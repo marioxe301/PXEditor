@@ -18,7 +18,6 @@ const createWindow = () =>{
 
     mainWindow.loadFile('./index.html')
     mainWindow.resizable = false
-    mainWindow.webContents.openDevTools();
 }
 
 app.whenReady().then(createWindow)
